@@ -8,11 +8,12 @@ public class P1MenuColoresFrame {
             public static void main(String[] args) {
                 JFrame ventana = new JFrame("Panel menú Colores");
                 ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                 ventana.setSize(300,300);
 
                 JPanel panel = new JPanel();
                 panel.setLayout(new BorderLayout());
                 ventana.add(panel);
+                ventana.setSize(300,300);
+
 
                 JMenuBar barraMenu = new JMenuBar();
                 JMenu menuColores = new JMenu("Colores");
